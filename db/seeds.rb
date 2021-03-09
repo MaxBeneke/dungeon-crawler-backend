@@ -9,6 +9,7 @@ player1 = Player.create(hp: 50, name: "James", level: 1, xp: 0)
 
 enemy1 = Enemy.create(hp: 10, name: "Nerd", xp: 25)
 
-item1 = Item.create(name: "Lesser Healing Potion", description: "Drink this to regain 25% of Your HP")
-
-possession1 = Possession.create(player: player1, item: item1)
+item1 = Item.create(name: "Lesser Healing Potion", description: "Drink this to regain 25% of Your HP.")
+item2 = Item.create(name: "Smoke Bomb", description: "Using this in battle will cause enemies to sometimes miss.")
+item3 = Item.create(name: "Greater Healing Potion", description: "Drink this to regain 50% of Your HP.")
+item4 = Item.create(name: "Super Bomb", description: "Use this in battle to deal a whopping 15 Damage!")
