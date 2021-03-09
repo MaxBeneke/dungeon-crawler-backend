@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 
   get '/players', to: 'players#index'
+  post '/players', to: 'players#create'
   get '/players/:id', to: 'players#show'
   patch '/players/:id', to: 'players#update'
 
@@ -16,6 +17,9 @@ Rails.application.routes.draw do
   get '/enemies', to: 'enemies#index'
   get '/enemies/:id', to: 'enemies#show'
   patch '/enemies/:id', to: 'enemies#update'
+
+  get '/possessions', to: 'possessions#index'
+  post '/possessions', to: 'possessions#create'
 
 
 end
