@@ -5,9 +5,10 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-player1 = Player.create(hp: 50, name: "James", level: 1, xp: 0)
+player1 = Player.create(hp: 50, name: "James", level: 1, xp: 0, special: 4, sprite: "https://cdn.bulbagarden.net/upload/6/68/VSBeauty_SwSh.png")
 
 enemy1 = Enemy.create(hp: 10, name: "Nerd", xp: 25)
+
 
 item1 = Item.create(name: "Lesser Healing Potion", description: "Drink this to regain 25% of Your HP.")
 item2 = Item.create(name: "Smoke Bomb", description: "Using this in battle will cause enemies to sometimes miss.")
