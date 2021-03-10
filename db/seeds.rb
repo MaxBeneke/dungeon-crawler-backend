@@ -8,6 +8,14 @@
 player1 = Player.create(hp: 50, name: "James", level: 1, xp: 0, special: 4, sprite: "https://cdn.bulbagarden.net/upload/6/68/VSBeauty_SwSh.png")
 
 enemy1 = Enemy.create(hp: 10, name: "Nerd", xp: 25)
+enemy2 = Enemy.create(hp: 10, name: "Burnout", xp: 25)
+enemy3 = Enemy.create(hp: 10, name: "Bully", xp: 25)
+enemy4 = Enemy.create(hp: 10, name: "Hall Monitor", xp: 25)
+enemy5 = Enemy.create(hp: 10, name: "Stacy", xp: 25)
+enemy6 = Enemy.create(hp: 10, name: "Super Nerd", xp: 25)
+enemy7 = Enemy.create(hp: 10, name: "Mrs. Capriotti", xp: 25)
+enemy8 = Enemy.create(hp: 10, name: "Coach Gunderson", xp: 25)
+enemy9 = Enemy.create(hp: 50, name: "Principal Crawford")
 
 
 item1 = Item.create(name: "Lesser Healing Potion", description: "Drink this to regain 25% of Your HP.")
