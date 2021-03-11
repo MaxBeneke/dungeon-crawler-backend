@@ -20,6 +20,7 @@ Rails.application.routes.draw do
 
   get '/possessions', to: 'possessions#index'
   post '/possessions', to: 'possessions#create'
+  delete '/possessions/:id', to: 'possessions#destroy'
 
 
 end

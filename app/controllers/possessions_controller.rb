@@ -10,6 +10,12 @@ class PossessionsController < ApplicationController
         render json: @possession
     end
 
+    def destroy
+        @possession = Possession.find(params[:id])
+        @possession.destroy
+        render json: @possession
+    end
+
     private
 
     def possession_params

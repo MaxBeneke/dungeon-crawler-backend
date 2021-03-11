@@ -19,7 +19,7 @@ class EnemiesController < ApplicationController
     private
 
     def enemy_params
-        params.permit(:hp)
+        params.permit(:hp, :status)
     end
 
 end
