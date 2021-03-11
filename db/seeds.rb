@@ -15,7 +15,7 @@ enemy5 = Enemy.create(hp: 15, name: "Stacy", xp: 50)
 enemy6 = Enemy.create(hp: 15, name: "Super Nerd", xp: 50)
 enemy7 = Enemy.create(hp: 20, name: "Mrs. Capriotti", xp: 75)
 enemy8 = Enemy.create(hp: 20, name: "Coach Gunderson", xp: 75)
-enemy9 = Enemy.create(hp: 50, name: "Principal Crawford", xp: 50)
+enemy9 = Enemy.create(hp: 50, name: "Principal Crawford", xp: 0)
 
 
 item1 = Item.create(name: "Lesser Healing Potion", description: "Drink this to regain ~25% of Your HP.")
