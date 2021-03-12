@@ -24,4 +24,4 @@ item3 = Item.create(name: "Greater Healing Potion", description: "Drink this to 
 item4 = Item.create(name: "Super Bomb", description: "Use this in battle to deal a whopping 15 Damage!")
 item5 = Item.create(name: "Fake Item", description: "I'm just a fake lil item")
 
-possession1 = Possession.create(player: player1, item: item5)
+
