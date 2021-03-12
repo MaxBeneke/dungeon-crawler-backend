@@ -19,7 +19,7 @@ class EnemiesController < ApplicationController
     private
 
     def enemy_params
-        params.permit(:hp, :status, :image, :sprite)
+        params.permit(:hp, :status, :image, :sprite, :dialogue)
     end
 
 end

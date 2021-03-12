@@ -24,6 +24,6 @@ class PlayersController < ApplicationController
     private
 
     def player_params
-        params.permit(:name, :hp, :level, :xp, :special)
+        params.permit(:name, :hp, :level, :xp, :special, :sprite)
     end
 end
